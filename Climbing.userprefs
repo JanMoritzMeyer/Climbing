@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraMover.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TutorialScript.cs" Line="187" Column="34" />
+      <File FileName="Assets/Scripts/CameraMover.cs" Line="59" Column="54" />
+      <File FileName="Assets/Scripts/Player.cs" Line="201" Column="90" />
+      <File FileName="Assets/Scripts/ScoreChanger.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoreSaver.cs" Line="27" Column="35" />
+      <File FileName="Assets/Scripts/CoordinateChanger.cs" Line="13" Column="88" />
+      <File FileName="Assets/Scripts/SpriteChanger.cs" Line="38" Column="3" />
+      <File FileName="Assets/Scripts/FrameDisplay.cs" Line="34" Column="9" />
+      <File FileName="Assets/Scripts/PlayerPower.cs" Line="59" Column="13" />
+      <File FileName="Assets/Scripts/ResetEverything.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/janmoritzmeyer/Desktop/Climbing/Assets/Scripts/CameraMover.cs" line="51" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
