@@ -14,11 +14,16 @@ public class PlayerPower : MonoBehaviour {
 
 	public static float time;
 
+    public Image sliderColor;
+
 	float aufladeSpeed;
 
 	bool isColorRed;
 
 	bool Speedreduced;
+
+    bool isLoading;
+
 	// Use this for initialization
 	void Start () {
 		Speedreduced = false;
@@ -39,18 +44,28 @@ public class PlayerPower : MonoBehaviour {
 		{
 			Player.Geschwindigkeit /= 3.0f;
 			Player.timeNeeded *= 3.0f;
+            
 			Speedreduced = true;
 		}
 		if (Player.time > 1.0f && Player.isMoving == false)
 		{
 			ChangeSliderValue(1.0f, Player.Geschwindigkeit * 1.5f);
-		}
+            sliderColor.color = Color.Lerp(Color.red, Color.white, Mathf.PingPong(Time.time, 0.1f));
+        }
 		if (power > 0.3f && Speedreduced == true)
 		{
 			Speedreduced = false;
 			Player.Geschwindigkeit *= 3.0f;
 			Player.timeNeeded /= 3.0f;
-		}
+            sliderColor.color = Color.white;
+
+
+        }
+        if (Player.isMoving == true || sliderValue.value == sliderValue.maxValue)
+        {
+            sliderColor.color = Color.white;
+            
+        }
 	}
 
 	public static void ChangeSliderValue(float Value, float speed)

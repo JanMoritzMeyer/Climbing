@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{AEBC7DFA-FDE4-8675-8EFB-13D78F7219FD}") = "Climbing", "Assembly-CSharp.csproj", "{673FB5AE-B151-5EB6-04D6-BF391CB562DC}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Climbing.CSharp", "Climbing.CSharp.csproj", "{4C4E47FB-C230-15E0-4B00-8D6D8C3EF002}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{673FB5AE-B151-5EB6-04D6-BF391CB562DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{673FB5AE-B151-5EB6-04D6-BF391CB562DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{673FB5AE-B151-5EB6-04D6-BF391CB562DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{673FB5AE-B151-5EB6-04D6-BF391CB562DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4E47FB-C230-15E0-4B00-8D6D8C3EF002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4E47FB-C230-15E0-4B00-8D6D8C3EF002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4E47FB-C230-15E0-4B00-8D6D8C3EF002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4E47FB-C230-15E0-4B00-8D6D8C3EF002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

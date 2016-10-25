@@ -63,20 +63,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ButtonClickCounter.cs" />
     <Compile Include="Assets\Scripts\CameraMover.cs" />
+    <Compile Include="Assets\Scripts\ChangeSettingsText.cs" />
     <Compile Include="Assets\Scripts\CoordinateChanger.cs" />
     <Compile Include="Assets\Scripts\FrameDisplay.cs" />
     <Compile Include="Assets\Scripts\LastScoreLoader.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\MouseButtonDown.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerPower.cs" />
+    <Compile Include="Assets\Scripts\ResetEverything.cs" />
     <Compile Include="Assets\Scripts\ScoreChanger.cs" />
     <Compile Include="Assets\Scripts\ScoreSaver.cs" />
     <Compile Include="Assets\Scripts\SpriteChanger.cs" />
+    <Compile Include="Assets\Scripts\TutorialButtonTextChanger.cs" />
+    <Compile Include="Assets\Scripts\TutorialCoordinateChanger.cs" />
+    <Compile Include="Assets\Scripts\TutorialDoneSaver.cs" />
+    <Compile Include="Assets\Scripts\TutorialScript.cs" />
     <Compile Include="Assets\Scripts\handleSpawner.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Files\score.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
