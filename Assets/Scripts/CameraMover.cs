@@ -81,12 +81,7 @@ public class CameraMover : MonoBehaviour {
         }
 		else if ( CameraPosition.y > 200)
 		{
-			Player.timeNeeded /= 1.5f;
-			Player.Geschwindigkeit *= 1.5f;
-			if (time2 > 10.0f)
-			{
-				difficulty = Random.Range(2.0f, 3.5f);
-			}
+            difficulty = 3.0f;
 		}
 	}
 }
